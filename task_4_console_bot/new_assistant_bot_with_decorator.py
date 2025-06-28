@@ -56,7 +56,6 @@ def show_all(contacts):
     return "\n".join(f"{name}: {phone}" for name, phone in contacts.items())
 
 def main():
-    """Головна функція для запуску асистент-бота."""
     contacts = {}
     print("Welcome to the assistant bot!")
     while True:
